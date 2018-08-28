@@ -1,7 +1,4 @@
 pipeline {
-    triggers {
-            issueCommentTrigger('.*test this please.*')
-        }
   agent {
     node {
       label 'sssd-ci-slave'

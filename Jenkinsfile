@@ -8,7 +8,10 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh 'env'
+        sh '''env
+        ls
+        pwd'''
+
       }
     }
   }

@@ -14,7 +14,7 @@ sssd.testlib requires the following packages:
 
 RHEL7
 -----
-To install above dependencies on RHEL7.4 get the:
+To install above dependencies on RHEL7 get the:
 
 * python-paramiko package (available at Extras repo)
 
